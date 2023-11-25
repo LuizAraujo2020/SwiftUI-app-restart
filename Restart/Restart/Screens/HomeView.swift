@@ -12,6 +12,8 @@ struct HomeView: View {
 
     @State private var isAnimating = false
 
+    private let hapticFeedback = UINotificationFeedbackGenerator()
+
     var body: some View {
         VStack(spacing: 20) {
             // MARK: - HEADER
@@ -53,6 +55,8 @@ struct HomeView: View {
 
             Button {
                 withAnimation {
+                    hapticFeedback.notificationOccurred(.success)
+                    playSound(sound: "success", type: "m4a")
                     isOnboardingViewActive = true
                 }
             } label: {
