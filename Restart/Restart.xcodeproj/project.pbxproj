@@ -27,6 +27,7 @@
 		6F917C9D2B1220A40073F692 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		6F917CA32B1223720073F692 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6F917CA52B12247B0073F692 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6F917CA72B122A550073F692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		6F917C8C2B121DC30073F692 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				6F917CA72B122A550073F692 /* Info.plist */,
 				6F917CA22B1222960073F692 /* Utilities */,
 				6F917CA12B1222580073F692 /* Views */,
 				6F917CA02B1222510073F692 /* Screens */,
@@ -323,9 +325,9 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,9 +354,9 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Restart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
