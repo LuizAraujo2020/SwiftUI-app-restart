@@ -9,6 +9,7 @@ Basic App to practice basics concepts and practices of SwiftUI Development
 - [x] ADVANCED APP DESIGN
 - [x] COMPLEX SWIFTUI GESTURES
 - [x] PARALLAX EFFECT
+- [x] ONBOARDING
 
 UI & UX
 - [x] Advanced App Design
